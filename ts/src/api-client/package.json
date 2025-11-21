@@ -1,0 +1,52 @@
+{
+  "name": "ccxt-api-client",
+  "version": "1.0.0",
+  "description": "Universal API Client Module - Extract exchange APIs with latency metrics observability",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "keywords": [
+    "api",
+    "client",
+    "exchange",
+    "metrics",
+    "observability",
+    "latency",
+    "ccxt",
+    "rest",
+    "http"
+  ],
+  "author": "CCXT Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/extractor.test.js"
+  },
+  "peerDependencies": {
+    "ccxt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.ts",
+    "examples/**/*",
+    "test/**/*",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccxt/ccxt.git",
+    "directory": "ts/src/api-client"
+  },
+  "bugs": {
+    "url": "https://github.com/ccxt/ccxt/issues"
+  },
+  "homepage": "https://docs.ccxt.com"
+}
